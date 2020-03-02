@@ -1,0 +1,24 @@
+.graph-buttons{
+    display: flex;
+    background: inherit;
+    color: inherit;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 80px;
+}
+
+.graph-btn{
+    background: inherit;
+    border-radius: 5px;
+    height: 40px;
+    width: 50px;
+    color: inherit;
+    border: 1px solid #a39999;
+    margin: 10px;
+    font-size: 14px;
+}
+.graph-btn:focus{
+    background-color: lightsteelblue;
+}
+

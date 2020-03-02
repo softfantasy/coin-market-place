@@ -1,0 +1,75 @@
+.exchange-container-day{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:30px 0;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    background-color: #fff;
+    min-height: 100vh;
+}
+
+.exchange-container-night{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:30px 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    background-color: black;
+    min-height: 100vh;
+}
+
+.exchange-filter{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 90%;
+    margin: 20px 0;
+}
+
+.exchange-top-heading{
+    margin-bottom: 30px;
+}
+
+.exchange-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    border-bottom: 1px solid;
+    border-top:1px solid;
+    height:80px;
+    font-size: 18px;
+}
+.name-heading{
+    text-align: center;
+    width: 20%;
+}
+
+.rank-heading{
+    width:8%;
+}
+
+.score-heading{
+    width: 20%;
+    align-items: center;
+    text-align: center;
+}
+
+.volume-heading{
+    width:20%;
+    text-align: center;
+}
+
+.country-heading{
+    width:20%;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    
+}

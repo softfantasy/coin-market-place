@@ -1,0 +1,152 @@
+.navbar-day{
+    background: #fff;
+    color: black;
+    height: 80px;
+    display: flex;
+    position: sticky;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    top: 0;
+    z-index: 999;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .navbar-night{
+    background: black;
+    color: #fff;
+    height: 80px;
+    display: flex;
+    position: sticky;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    top: 0;
+    z-index: 999;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .navbar-logo {
+    color: #242424;
+    justify-self: start;
+    margin: 0 5% 0 5%;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+
+  .navbar-logo:hover {
+    color: #14d2eb;
+    justify-self: start;
+    margin: 0 5% 0 5%;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+  
+  
+  .nav-menu {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 70%;
+    justify-content: start;
+  }
+  
+  .nav-item {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-links {
+    color: inherit;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+  }
+  
+  .nav-links:hover {
+    color: #14d2eb;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+  }
+
+  @media screen and (max-width:760px){
+    .navbar-day{
+      background: #fff;
+      color: black;
+      height: 60px;
+      display: flex;
+      position: sticky;
+      justify-content: center;
+      align-items: center;
+      font-size: 0.8rem;
+      top: 0;
+      z-index: 999;
+      font-family: 'Montserrat', sans-serif;
+      padding-left:20px;
+    }
+  
+    .navbar-night{
+      background: black;
+      color: #fff;
+      height: 60px;
+      display: flex;
+      position: sticky;
+      justify-content: center;
+      align-items: center;
+      font-size: 0.8rem;
+      top: 0;
+      z-index: 999;
+      font-family: 'Montserrat', sans-serif;
+      padding-left: 20px;
+    }
+    
+    .navbar-logo {
+      color: #242424;
+      justify-self: start;
+      margin: 0 10 0 10px;
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+  
+    .navbar-logo:hover {
+      color: #14d2eb;
+      justify-self: start;
+      margin: 0 10px 0 10px;
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 0.8rem;
+    }
+    
+    
+    .nav-menu {
+      display: grid;
+      grid-template-columns: repeat(5, auto);
+      grid-gap: 10px;
+      list-style: none;
+      text-align: center;
+      width: auto;
+      justify-content: start;
+      padding-inline-start: 0px;
+    }
+    
+    .nav-item {
+      display: flex;
+      align-items: center;
+    }
+  
+    .nav-links {
+      color: inherit;
+      text-decoration: none;
+      padding: auto;
+    }
+    
+    .nav-links:hover {
+      color: #14d2eb;
+      border-radius: 4px;
+      transition: all 0.2s ease-out;
+    }
+  }

@@ -1,0 +1,47 @@
+.news-card{
+    background-color: inherit;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 60px;
+    border: thin solid;
+    width: 60%;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.card-heading{
+    margin: 10px 0px;
+    font-size: 22px;
+}
+
+.card-heading:hover{
+    color: #14d2eb;
+}
+
+.card-image{
+    height: 80%;
+    width: 300px;
+}
+
+.card-para{
+    margin: 0 20px;
+    padding:0 10px;
+    line-height: 30px;
+}
+
+.card-details{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    width: 90%;
+    margin: 10px 0;
+}
+
+.card-source{
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+}

@@ -1,0 +1,25 @@
+.news-container-day{
+    display: flex;
+    top:80px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+    color: black;
+    min-height: 100vh;
+}
+
+.news-container-night{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 80px;
+    flex-direction: column;
+    padding: 20px 100px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    color: #fff;
+    min-height: 100vh;
+}
